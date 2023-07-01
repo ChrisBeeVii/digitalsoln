@@ -696,21 +696,21 @@ body {
 
 .top-container {
   width: 400px;
-  height: 300px;
+  min-height: 300px;
   background-color: #ff0000;
   display:inline-block;
 }
 
 .middle-container {
   width: 400px;
-  height: 300px;
+  min-height: 300px;
   background-color: hsl(357, 0%, 28%);
   display: inline-block;
 }
 
 .bottom-container {
   width: 400px;
-  height: 300px;
+  min-height: 300px;
   background-color: hsl(357, 0%, 28%);
   display: inline-block;
 }
@@ -730,10 +730,6 @@ body {
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
-  }
-
-  .md\:hidden {
-    display: none;
   }
 
   .md\:w-1\/2 {
@@ -761,9 +757,5 @@ body {
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-
-  .md\:text-inherit {
-    color: inherit;
   }
 }
